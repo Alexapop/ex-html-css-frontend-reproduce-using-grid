@@ -19,3 +19,20 @@ Reproduce la siguiente imagen utilizando html y css.
 
 ## Resource
 - Font: https://fonts.google.com/specimen/Bitcount+Single?categoryFilters=Feeling:%2FExpressive%2FPlayful&preview.script=Latn
+
+
+
+## Exercise:  HTML5 & CSS3 - Frontend - Reproduce using Grid
+
+## Objective
+Replicating an image using HTML, CSS and Grid to make it responsive for phone, tablet and desktop
+
+## Typography
+ The project uses the following font:
+- Bitcount Single (Google Fonts)
+
+## Project Structure
+
+│── index.html │── style.css
+│── reset.css
+│── /img 
