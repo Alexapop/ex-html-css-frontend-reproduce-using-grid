@@ -1,2 +1,187 @@
 @import url(css/reset.css);
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    background-color: rgb(238, 233, 233);
+    padding: 30px;
+}
+
+main {
+    font-family: "Bitcount Single";
+    font-weight: 500;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: black;
+    font-weight: 740;
+    width: 1200px;
+    margin:0 auto;
+ 
+}
+
+.subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: black;
+    font-weight: 500;  
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+
+}
+
+.grid-colors{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-items: center;
+    font-weight: 500;
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+  
+
+.grid-title{
+    grid-column:1/-1;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding:40px;
+    border-radius: 10px;
+
+}
+
+.black-box {
+    background-color: black;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+.teal-box {
+    background-color: teal;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.blue-box {
+    background-color: blue;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+.navy-box {
+    background-color: navy;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+.lime-box {
+    background-color: lime;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+.white-box {
+    background-color: white;
+    color: black;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.purple-box {
+    background-color: purple;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.yellow-box {
+    background-color: yellow;
+    color: black;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.olive-box {
+    background-color: olive;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.red-box {
+    background-color: red;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.maroon-box {
+    background-color: maroon;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.gray-box {
+    background-color: gray;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.olivedrab-box {
+    background-color: olivedrab;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.deep-sky-blue-box {
+    background-color: deepskyblue;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.fuchsia-box {
+    background-color: fuchsia;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.green-box {
+    background-color: green;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+;
+}
+
