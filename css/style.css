@@ -3,47 +3,43 @@
 
 
 body {
-    background-color: rgb(238, 233, 233);
-    padding: 30px;
+    background-color: rgb(234, 233, 233);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 main {
     font-family: "Bitcount Single";
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .title {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-family:"Roboto", sans-serif;
+    font-size: 32px;
     color: black;
-    font-weight: 740;
-    width: 1200px;
-    margin:0 auto;
+    font-weight: 900;
+    margin:0;
  
 }
 
 .subtitle {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-family:"Roboto", sans-serif;
+    font-size: 25px;
     color: black;
-    font-weight: 500;  
-    width: 1200px;
-    margin: 0 auto;
-    padding: 20px 0;
-
+    font-weight: 700; 
+    margin 0;
+   
+ 
 }
 
+/*Mobile first*/
 .grid-colors{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     align-items: center;
     font-weight: 500;
-    width: 1200px;
-    margin: 0 auto;
-    box-sizing: border-box;
-
-}
+    }
   
 
 .grid-title{
@@ -177,11 +173,12 @@ main {
 }
 
 .green-box {
+    grid-column: 1/-1;
     background-color: green;
     color: white;
     padding: 40px;
     border-radius: 10px;
     text-align: center;
-;
+    
 }
 
